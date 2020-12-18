@@ -1,0 +1,19 @@
+{
+  "env": {
+    "browser": true,
+    "node": true,
+    "jasmine": true
+  },
+  "extends": ["airbnb", "prettier"],
+  "plugins": ["prettier"],
+  "rules": {
+    "no-unused-vars": "warn",
+    "react/jsx-filename-extension": "off",
+    "react/react-in-jsx-scope": "off",
+    "import/prefer-default-export": "off",
+    "react/prop-types": "off",
+    "react/jsx-props-no-spreading": "off",
+    "react/jsx-one-expression-per-line": "off",
+    "react/jsx-no-duplicate-props": ["error", { "ignoreCase": false }]
+  }
+}
