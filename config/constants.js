@@ -12,6 +12,7 @@ export const CHAINS = {
   [MAINNET_CHAIN_ID]: 'Mainnet',
   [RINKEBY_CHAIN_ID]: 'Rinkeby',
   [GOERLI_CHAIN_ID]: 'Goerli',
+  [LOCAL_CHAIN_ID]: 'Local',
 };
 
 export const ETHERSCAN_PREFIXES = {
